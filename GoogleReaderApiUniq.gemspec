@@ -4,19 +4,19 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{GoogleReaderApi}
+  s.name = %q{GoogleReaderApiUniq}
   s.version = "0.3.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Toon Willems}]
+  s.authors = [%q{Toon Willems, Ivan Kasatenko}]
   s.date = %q{2011-08-21}
   s.description = %q{a google reader api (unofficial) written in ruby}
-  s.email = %q{willemstoon@gmail.com}
+  s.email = %q{willemstoon@gmail.com, sky.31338@gmail.com}
   s.extra_rdoc_files = [
     "README.mdown"
   ]
   s.files = [
-    "GoogleReaderApi.gemspec",
+    "GoogleReaderApiUniq.gemspec",
     "License",
     "README.mdown",
     "Rakefile",
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
     "lib/google-reader-api/user.rb",
     "lib/google_reader_api.rb"
   ]
-  s.homepage = %q{http://github.com/nudded/GoogleReaderAPI}
+  s.homepage = %q{http://github.com/SkyWriter/GoogleReaderAPI}
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.8}
   s.summary = %q{a google reader api (unofficial) written in ruby}
