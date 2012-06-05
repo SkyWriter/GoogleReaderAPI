@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "GoogleReaderApiUniq"
-  s.version = "0.3.7"
+  s.version = "0.3.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Toon Willems", "Ivan Kasatenko"]
@@ -21,15 +21,15 @@ Gem::Specification.new do |s|
     "README.mdown",
     "Rakefile",
     "VERSION",
-    "lib/google-reader-api/api.rb",
-    "lib/google-reader-api/cache.rb",
-    "lib/google-reader-api/entry.rb",
-    "lib/google-reader-api/feed.rb",
-    "lib/google-reader-api/google_login.rb",
-    "lib/google-reader-api/rss_utils.rb",
-    "lib/google-reader-api/subscription_list.rb",
-    "lib/google-reader-api/user.rb",
-    "lib/google_reader_api.rb"
+    "lib/google-reader-api-uniq/api.rb",
+    "lib/google-reader-api-uniq/cache.rb",
+    "lib/google-reader-api-uniq/entry.rb",
+    "lib/google-reader-api-uniq/feed.rb",
+    "lib/google-reader-api-uniq/google_login.rb",
+    "lib/google-reader-api-uniq/rss_utils.rb",
+    "lib/google-reader-api-uniq/subscription_list.rb",
+    "lib/google-reader-api-uniq/user.rb",
+    "lib/google_reader_api_uniq.rb"
   ]
   s.homepage = "http://github.com/SkyWriter/GoogleReaderAPI"
   s.require_paths = ["lib"]
