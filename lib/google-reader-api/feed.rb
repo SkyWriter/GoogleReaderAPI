@@ -69,7 +69,7 @@ module GoogleReaderApi
     end
     
     def get_feed_items(args={})
-      @api.get_link "atom/feed/#{url}" , args
+      @api.get_link "atom/feed/#{CGI.escape(url)}" , args
     end
 
   end
